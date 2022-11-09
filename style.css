@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(-45deg, red,blue,green);
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100vh;
+    animation: animate 15s ease infinite;
+}
+@keyframes animate {
+    0%{
+        background-position: 0 50% ;
+    }
+    50%{
+        background-position: 100% 50% ;
+    }
+    100%{
+        background-position: 0 50% ;
+    }
+}
+.nav{
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+.above{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position :absolute;
+    top: 35%;
+    left:41%;
+    font-size: 50px;
+    color:white
+}
+.icons{
+    
+    display: flex;
+    height: 100vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 125px;
+    margin: 10px;
+    box-shadow: 1px 6px 4px 1px rgb(42, 39, 39);
+}
+
+a i{
+    font-size: 50px;
+    transition: all 0.3s linear;   
+}
+a:hover i{
+    transform: scale(1.2);
+}
+.fa-discord{
+    color: #7289d9 ;
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-linkedin{
+    color:#0097e6;
+}
+.fa-github{
+    color: #171515;
+}
+.fa-m{
+    color:#2e51a2;
+}
+
+
