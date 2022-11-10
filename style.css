@@ -73,6 +73,7 @@ a:hover i{
 @media (max-width: 1000px) {
     body {
       font-size: 4px;
+        animation: animate 9s ease infinite;
     }
    
     a{
